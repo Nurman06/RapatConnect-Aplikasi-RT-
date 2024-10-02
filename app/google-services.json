@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "603613464120",
+    "firebase_url": "https://rt-database-fe3de-default-rtdb.firebaseio.com",
+    "project_id": "rt-database-fe3de",
+    "storage_bucket": "rt-database-fe3de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603613464120:android:f1d1fe7b74ad55aace08cd",
+        "android_client_info": {
+          "package_name": "com.example.rt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA96Nf0tMgC1F9DC3PUXidW3AgN6nCtCRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

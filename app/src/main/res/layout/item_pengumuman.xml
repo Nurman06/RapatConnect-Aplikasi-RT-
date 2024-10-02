@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Gambar Pengumuman -->
+        <ImageView
+            android:id="@+id/imageViewPengumuman"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="Gambar Pengumuman"
+            android:scaleType="centerCrop" />
+
+        <!-- Headline (Judul Pengumuman) -->
+        <TextView
+            android:id="@+id/textViewHeadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Judul Pengumuman"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+        <!-- Subhead (Tanggal Pengumuman) -->
+        <TextView
+            android:id="@+id/textViewSubhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Tanggal Pengumuman"
+            android:textAppearance="?attr/textAppearanceSubtitle2" />
+
+        <!-- Supporting Text (Deskripsi Pengumuman) -->
+        <TextView
+            android:id="@+id/textViewSupportingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="Deskripsi Pengumuman" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:text="Delete"
+            android:textColor="@android:color/white" />
+
+        <!-- Tombol Expand (Icon Panah) -->
+        <ImageView
+            android:id="@+id/iconExpand"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Expand or Collapse Icon"
+            android:src="@drawable/ic_expand_more" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

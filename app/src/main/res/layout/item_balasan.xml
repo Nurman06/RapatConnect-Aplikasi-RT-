@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/white"
+    android:elevation="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/gray"
+    app:strokeWidth="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Foto Profil -->
+        <ImageView
+            android:id="@+id/imgUserProfileBalasan"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/gray"
+            android:clipToOutline="true"
+            android:contentDescription="Foto profil"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person" />
+
+        <!-- Konten Balasan -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Nama Pengguna -->
+            <TextView
+                android:id="@+id/tvBalasanUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengguna"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <!-- Konten Balasan -->
+            <TextView
+                android:id="@+id/tvBalasanKonten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ini adalah balasan dari pengguna."
+                android:textColor="@color/black"
+                android:layout_marginTop="4dp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Waktu Balasan -->
+    <TextView
+        android:id="@+id/tvBalasanTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:text="2 jam yang lalu"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+
+</com.google.android.material.card.MaterialCardView>

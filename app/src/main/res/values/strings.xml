@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RapatConnect</string>
+    <string name="user_name_with_role">%s (%s)</string>
+    <string name="link_login">Sudah punya akun? Masuk di sini!</string>
+    <string name="link_register">Belum punya akun? Daftar di sini!</string>
+    <string name="pilih_role">Pilih Role</string>
+    <string name="pilih_jenis_kelamin">Pilih Jenis Kelamin</string>
+    <string name="username">Username</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="login">Login</string>
+    <string name="hello_world">Hello World</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="role">Role</string>
+    <string name="image_icon">image icon</string>
+    <string name="beranda">Beranda</string>
+    <string name="aktivitas">Aktivitas</string>
+    <string name="saya">Saya</string>
+    <string name="halo_selamat_datang">Halo, selamat datang!</string>
+    <string name="aktivitas_fragment">Aktivitas Fragment</string>
+    <string name="saya_fragment">Saya Fragment</string>
+    <string name="simpan">Simpan</string>
+    <string name="upload_foto">Upload Foto</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="selamat_datang_di_aplikasi_beconnect">Selamat datang di aplikasi RapatConnect!</string>
+    <string name="foto_profil">Foto Profil</string>
+    <string name="upload_file">Upload File</string>
+    <string name="browse_file">Browse File</string>
+    <string name="delete">Delete</string>
+    <string name="upload_pengumuman">Upload Pengumuman</string>
+    <string name="upload">Upload</string>
+    <string name="kritik_dan_saran"><![CDATA[Kritik & Saran]]></string>
+    <string name="word_file">Word File</string>
+    <string-array name="jenis_kelamin_options">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>Warga</item>
+        <item>Ketua RT</item>
+    </string-array>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:backgroundTint="@color/white"
+    android:elevation="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/gray"
+    app:strokeWidth="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Foto Profil -->
+        <ImageView
+            android:id="@+id/imgUserProfile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/gray"
+            android:clipToOutline="true"
+            android:contentDescription="Foto profil"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person" />
+
+        <!-- Konten Kritik/Saran -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Nama Pengguna -->
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pengguna"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <!-- Konten Kritik/Saran -->
+            <TextView
+                android:id="@+id/tvKritikSaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ini adalah kritik/saran"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Tombol Balasan -->
+    <ImageButton
+        android:id="@+id/btnBalas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Balas"
+        android:src="@drawable/ic_reply" />
+
+</com.google.android.material.card.MaterialCardView>
